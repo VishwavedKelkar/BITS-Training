@@ -1,13 +1,11 @@
 # Training
-BITS Training 
+
 
 <h1>Delete All tasks</h1>
-![Image](https://github.com/user-attachments/assets/d86d3326-e729-458f-9e97-4aef134a1f1d)
-
+![Screenshot 2025-02-03 200056](https://github.com/user-attachments/assets/80a08281-4215-47fe-8725-e092d5db2809)
 
 <h1>Confirm before Deletion</h1>
-![Image](https://github.com/user-attachments/assets/aa524f48-67f0-4a17-8df4-1bcdf617aac2)
-
+![Screenshot 2025-02-03 200145](https://github.com/user-attachments/assets/d74c7132-e22c-4015-9310-b69e0e9cd4d5)
 
 <h1>Edit -> Enter-> save changes</h1>
-![Image](https://github.com/user-attachments/assets/6b45ec22-5bf2-4e07-beb3-ea5d9e72f3c9)
+![Screenshot 2025-02-03 200407](https://github.com/user-attachments/assets/9d5c72fb-4384-4fd0-a0ab-ef3ecd50ccd1)
