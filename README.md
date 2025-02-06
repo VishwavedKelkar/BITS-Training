@@ -11,6 +11,6 @@
 - **Assignment 4 (06-02-2025)**
   - *Callback Functions* - [View Task](06-02-2025/task1.js)
   - *Working with Objects* - [View Task](06-02-2025/task2.js)
-  - *Analyzing JS Heap Memory* - [HTML](06-02-2025/task3.html) , [JS](06-02-2025/task3.js)
+  - *Analyzing JS Heap Memory* - [HTML](06-02-2025/task3.html) , [JS](06-02-2025/task3.js) , [README.md](06-02-2025/task3README.md)
   - *Working with map(), filter() & reduce() methods* - [View Task](06-02-2025/task4.js)
   - *Callback functions with map(), filter() & reduce() methods* - [View Task](06-02-2025/task5.js)
