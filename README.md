@@ -8,3 +8,9 @@
   - *OOPS* - [View_Task](04-02-2025/OOPS)
 - **Assignment 3 (05-02-2025)**
   - *Axios todo* - [View Task](05-02-2025/todoaxios)
+- **Assignment 4 (06-02-2025)**
+  - *Callback Functions* - [View Task](06-02-2025/task1.js)
+  - *Working with Objects* - [View Task](06-02-2025/task2.js)
+  - *Analyzing JS Heap Memory* - [HTML](06-02-2025/task3.html) , [JS](06-02-2025/task3.js)
+  - *Working with map(), filter() & reduce() methods* - [View Task](06-02-2025/task4.js)
+  - *Callback functions with map(), filter() & reduce() methods* - [View Task](06-02-2025/task5.js)
