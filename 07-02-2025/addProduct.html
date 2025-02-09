@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Add a Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Add a New Product</h1>
+        <div id="nav-buttons">
+            <button type="button" class="btn btn-outline-primary" onclick="window.location.href='index.html'">Back to
+                Home Page</button>
+        </div>
+    </nav>
+    <div id="add-product">
+        <form id="product-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <input type="text" id="description" placeholder="Add a Description" required>
+            <input type="url" id="image" placeholder="Image URL" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <button type="submit" class="btn btn-outline-primary">Add</button>
+        </form>
+    </div>
+    <div id="feedback-message"></div>
+    <script src="addProduct.js"></script>
+</body>
+
+</html>
