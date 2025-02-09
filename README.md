@@ -14,3 +14,5 @@
   - *Analyzing JS Heap Memory* - [HTML](06-02-2025/task3.html) , [JS](06-02-2025/task3.js) , [README.md](06-02-2025/task3README.md)
   - *Working with map(), filter() & reduce() methods* - [View Task](06-02-2025/task4.js)
   - *Callback functions with map(), filter() & reduce() methods* - [View Task](06-02-2025/task5.js)
+- **Assignment 5 (07-02-2025)**
+  - *Ecommerce Website* - [View Task](07-02-2025/README.md)
