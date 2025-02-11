@@ -16,3 +16,7 @@
   - *Callback functions with map(), filter() & reduce() methods* - [View Task](06-02-2025/task5.js)
 - **Assignment 5 (07-02-2025)**
   - *Ecommerce Website* - [View Task](07-02-2025/README.md)
+- **Assignment 6 (11-02-2025)**
+  - *Typescript - Employee Management System* - [View Task](11-02-2025/employee.ts)
+  - *Typescript - Online Payment System* - [View Task](11-02-2025/onlinePayment.ts)
+  - *Typescript - Vehicle Rental System* - [View Task](11-02-2025/vehicle.ts)
