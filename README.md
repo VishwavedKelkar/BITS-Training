@@ -20,6 +20,8 @@
   - *Typescript - Employee Management System* - [View Task](11-02-2025/employee.ts)
   - *Typescript - Online Payment System* - [View Task](11-02-2025/onlinePayment.ts)
   - *Typescript - Vehicle Rental System* - [View Task](11-02-2025/vehicle.ts)
-- **Assignment 6 (11-02-2025)**
+- **Assignment 7 (12-02-2025)**
   - *Employee Management System using typescript* - [View Task](12-02-2025/assignment1)
   - *Quiz App* - [View Task](12-02-2025/assignment2)
+- **Assignment 8 (13-02-2025)**
+  - *Expense Tracker System* - [View Task](13-02-2025)
