@@ -32,7 +32,7 @@ const displayCartItems = () => __awaiter(void 0, void 0, void 0, function* () {
         cartList.appendChild(cartItem);
     });
     if (cartItems.length === 0) {
-        cartList.innerHTML = 'Your Cart is empty!';
+        cartList.innerHTML = `<h2 class = "empty-cart"> Your Cart is empty!<h2>`;
     }
 });
 window.addQuantity = (productId) => __awaiter(void 0, void 0, void 0, function* () {

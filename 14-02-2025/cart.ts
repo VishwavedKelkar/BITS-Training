@@ -27,7 +27,7 @@ const displayCartItems = async (): Promise<void> => {
     })
 
     if (cartItems.length === 0) {
-        cartList.innerHTML = 'Your Cart is empty!';
+        cartList.innerHTML = `<h2 class = "empty-cart"> Your Cart is empty!<h2>`;
     }
 }
 
