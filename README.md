@@ -31,3 +31,5 @@
   - *Form-Component-useState-react* - [View Task](15-02-2025/formComponent-app)
 - **Assignment 11 (18-02-2025)**
   - *ToDo-useState-useEffect* - [View Task](18-02-2025/todo-app)
+- **Assignment 12 (19-02-2025)**
+  - *API-calls-GET-POST* - [View Task](19-02-2025/Api-app)
