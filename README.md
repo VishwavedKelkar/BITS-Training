@@ -33,3 +33,6 @@
   - *ToDo-useState-useEffect* - [View Task](18-02-2025/todo-app)
 - **Assignment 12 (19-02-2025)**
   - *API-calls-GET-POST* - [View Task](19-02-2025/Api-app)
+- **Assignment 13 (20-02-2025)**
+  - *useContext,useReducer,useMemo,useCallback* - [View Task](20-02-2025/my-app)
+
