@@ -1,0 +1,445 @@
+ :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a1a1a;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  flex-grow: 1;
+  text-align: center;
+  padding-left: 220px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header-buttons button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #646cff;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.header-buttons button:hover {
+  border-color: #535bf2;
+}
+
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.quantity-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.quantity-controls span {
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+
+
+.filter-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.filter-section label {
+  margin-right: 10px;
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.filter-section select {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+h2 {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.87);
+}
+h2, h3, h4, h5, h6, p {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+button.login, button.cart {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button.login:hover, button.cart:hover {
+  border-color: #646cff;
+}
+button.primary {
+  background-color: #646cff;
+  border-color: #535bf2;
+  color: white;
+}
+button.secondary {
+  background-color: #f9f9f9;
+  border-color: #ddd;
+  color: #213547;
+}
+
+.filter-section {
+  margin: 20px 0;
+  text-align: center;
+}
+.filter-section label {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+.filter-section select {
+  padding: 0.5em;
+  font-size: 1em;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.product {
+  background: rgba(184, 192, 248, 0.352);
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+.product:hover {
+  transform: scale(1.05);
+}
+.product img {
+  max-width: 100%;
+  height: 200px;
+}
+.product h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+.product p {
+  font-size: 1.2em;
+  color: #213547;
+}
+.product button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.product button:hover {
+  border-color: #646cff;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.cart-item img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+.cart-item h2 {
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+.cart-item p {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin: 0 10px;
+}
+.cart-item button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin-left: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #951717;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.cart-item button:hover {
+  border-color: #649dff;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+.padding {
+  padding: 20px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin: 20px;
+}
+
+.product-details img {
+  max-width: 300px;
+  margin: 20px 0;
+}
+
+.product-details p, .product-description {
+  font-size: 1.2em;
+  color: #ffffff;
+  max-width: 300px; 
+  text-align: center;
+}
+
+.product-description {
+  margin: 20px 0;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+/* :root {
+  --font-primary: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --color-light: rgba(255, 255, 255, 0.87);
+  --color-dark: #213547;
+  --color-background-dark: #242424;
+  --color-background-light: #ffffff;
+  --color-primary: #646cff;
+  --color-primary-hover: #535bf2;
+  --color-secondary: #f9f9f9;
+  --color-border-dark: #ddd;
+  --color-border-hover: #646cff;
+
+  font-family: var(--font-primary);
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: var(--color-light);
+  background-color: var(--color-background-dark);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+  font-weight: 500;
+  color: var(--color-primary);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--color-primary-hover);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: var(--font-primary);
+  line-height: 1.5;
+  color: var(--color-light);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: var(--color-primary);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+button.login, button.cart {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  color: var(--color-light);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button.login:hover, button.cart:hover {
+  border-color: var(--color-primary);
+}
+button.primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary-hover);
+  color: white;
+}
+button.secondary {
+  background-color: var(--color-secondary);
+  border-color: var(--color-border-dark);
+  color: var(--color-dark);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: var(--color-dark);
+    background-color: var(--color-background-light);
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: var(--color-secondary);
+  }
+} */
